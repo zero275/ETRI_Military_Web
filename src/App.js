@@ -38,7 +38,7 @@ const Military_Forces_Adaptability = React.lazy(() =>
 
 const { Content, Sider } = Layout;
 const { Item, SubMenu } = Menu;
-
+console.log("test");
 function App() {
   const auth = useStoreAuth((state) => state.auth);
   const setAuth = useStoreAuth((state) => state.setAuth);
